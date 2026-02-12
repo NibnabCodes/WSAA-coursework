@@ -19,15 +19,16 @@ if __name__ == "__main__":
     print(readbooks()) 
     
 # Write the function for find by id and test it (you need to write the testing code) 
-def readbook(id):
-    response = requests.get(f"{url}/{id}")
-    print("Status code:", response.status_code)
-    print("Response text:", response.text)
+def getBookById(id):
+    geturl = url + "/" + str(id)
+    response = requests.get(geturl)
+    print(f"Status code:", {response.status_code})
+    print(f"Response text:", {response.text})
     response.raise_for_status()
     return response.json()
 
 if __name__ == "__main__":
-    print(readbook(1))
+    print(getBookById(1))
     # The function is correct. A 500 error indicates a server-side issue, 
     # so I handle it using exception handling rather than changing the client code. 
     
