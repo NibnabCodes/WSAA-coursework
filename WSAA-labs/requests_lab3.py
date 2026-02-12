@@ -73,3 +73,6 @@ def deletebook(id):
         )
         
     return response.json() 
+
+if __name__ == "__main__":
+    print(deletebook(1552))
