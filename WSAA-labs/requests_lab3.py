@@ -40,7 +40,7 @@ def createbook(book):
 # Write the update function
 def updateBook(id, bookdiff):
     updateurl = url + "/" + str(id)
-    response = requests.patch(updateurl, json=bookdiff)
+    response = requests.put(updateurl, json=bookdiff)
 
     if response.status_code != 200:
         raise Exception(
@@ -78,5 +78,5 @@ if __name__ == "__main__":
     #print(readbooks())
     print(getBookById(1630))
     #print(createbook(book))
-    print(updateBook(id, bookdiff))
+    print(updateBook(1630, bookdiff))
     #print(deletebook(1625))
