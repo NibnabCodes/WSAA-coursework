@@ -1,3 +1,3 @@
-apikeys = {
-    "htmltopdfkey":"api key here"
+config = {
+    "githubkey" : "github_XXXXXXXXXXX have your own one here"
 }
