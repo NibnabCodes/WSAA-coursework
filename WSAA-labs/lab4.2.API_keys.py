@@ -4,7 +4,7 @@
 
 import requests
 import urllib.parse
-from config4 import apikeys as cfg
+from config import apikeys as cfg
 
 targetUrl = "https://andrewbeatty1.pythonanywhere.com/bookviewer.html" 
  
