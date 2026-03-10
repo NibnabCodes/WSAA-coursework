@@ -1,6 +1,6 @@
 # simple flask server
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify  
 
 app = Flask(__name__)
 
@@ -45,8 +45,8 @@ def create():
 
     return jsonify(newbook), 201
 
-# update book by id
-# curl -X PUT -d "{\"title\":\"test\", \"author\":\"some guy\", \"price\":123}" http://127.0.0.1:5000/books/1
+# update book by id - example shows how to update just the price, but you can also update title and author by including them in the JSON body
+# curl.exe -X PUT -H "Content-Type: application/json" -d "{\"price\":123}" http://127.0.0.1:5000/books/3
 
 @app.route('/books/<int:id>', methods=['PUT'])
 def update(id):
