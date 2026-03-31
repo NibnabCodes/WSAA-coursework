@@ -17,3 +17,20 @@ This repository is comprised of the following files and folders:
 * A **README** file that contains the utility of each program, list of dependencies, how to: set up environment, download the repository & run the code.
 * A **requirements.txt** file containing all packages that the assignment programs depend on & their versions.
 
+## Features
+
+
+## Dependencies
+
+
+## Environment Setup  
+
+
+## How to Download Repository  
+
+
+## How to Run the Code  
+
+
+## References  
+Please see .ipynb files for references used
