@@ -19,13 +19,13 @@ This repository is comprised of the following files and folders:
 
 ## Features  
 
-### Assignment 2 – Card Draw (`assignment2-carddraw.ipynb`)
+### Assignment 2 Card Draw (`assignment2-carddraw.ipynb`)
 Interacts with a deck of cards API to simulate a card hand. The program shuffles a deck, draws 5 cards, and evaluates the hand - checking for a pair, triple, straight, or same suit and congratulating the user on any winning combination.
 
-### Assignment 3 – CSO Data Retrieval (`assignment03-cso.ipynb`)
+### Assignment 3 CSO Data Retrieval (`assignment03-cso.ipynb`)
 Fetches the *Exchequer Account (Historical Series)* dataset from the Central Statistics Office (CSO) open data API and stores the retrieved data locally as `cso.json`.
 
-### Assignment 4 – GitHub File Editor (`assignment04-github.ipynb`)
+### Assignment 4 GitHub File Editor (`assignment04-github.ipynb`)
 Uses the GitHub API to read a `.txt` file from a repository, replace all instances of the name "Andrew" with "Niamh", and push the updated file back to the repository. GitHub authorisation is handled via a Personal Access Token stored in a `config.py` file, which is excluded from version control via `.gitignore`.
 
 ## Dependencies
