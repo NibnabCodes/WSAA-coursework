@@ -33,14 +33,15 @@ Uses the GitHub API to read a `.txt` file from a repository, replace all instanc
 The following libraries are required to run the programs in this repository:
 
 - **Python** 3.13.9
-- **requests** 2.32.5 - Used to make HTTP requests to external APIs (CSO, card draw)
-- **PyGithub** 2.8.1 - Python library for interacting with the GitHub API
-- **sys** - Python standard library module, used to manage the system path for importing `config.py`
+- **requests** 2.32.5 – Used to make HTTP requests to external APIs (CSO, card draw)
+- **PyGithub** 2.8.1 – Python library for interacting with the GitHub API
+- **sys** – Python standard library module, used to manage the system path for importing `config.py`
+- **os** – Python standard library module, used to manage file paths when saving `cso.json`
 
-All dependencies (excluding `sys`, which is built into Python) are listed in `requirements.txt` and can be installed by running:
+All dependencies (excluding `sys` and `os`, which are built into Python) are listed in `requirements.txt` and can be installed by running:
 ```bash
 pip install -r requirements.txt
-``` 
+```
 
 ## Environment Setup
 
