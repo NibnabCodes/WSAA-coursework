@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitcount+Ink&size=35&duration=2000&pause=2000&color=B842BD&background=FF86E800&width=435&lines=Assignments)](https://git.io/typing-svg)
 
-This repository contains three weekly task submissions completed as part of the assessment requirements for the *Web Services &amp; Applications* module at Atlantic Technological University – Galway.
+This repository contains three weekly task submissions completed as part of the assessment requirements for the *Web Services &amp; Applications* module at Atlantic Technological University ~ Galway.
 
 Author: Niamh Hogan
 
@@ -20,7 +20,7 @@ This repository is comprised of the following files and folders:
 ## Features  
 
 ### Assignment 2 – Card Draw (`assignment2-carddraw.ipynb`)
-Interacts with a deck of cards API to simulate a card hand. The program shuffles a deck, draws 5 cards, and evaluates the hand — checking for a pair, triple, straight, or flush, and congratulating the user on any winning combination.
+Interacts with a deck of cards API to simulate a card hand. The program shuffles a deck, draws 5 cards, and evaluates the hand - checking for a pair, triple, straight, or same suit and congratulating the user on any winning combination.
 
 ### Assignment 3 – CSO Data Retrieval (`assignment03-cso.ipynb`)
 Fetches the *Exchequer Account (Historical Series)* dataset from the Central Statistics Office (CSO) open data API and stores the retrieved data locally as `cso.json`.
@@ -33,9 +33,9 @@ Uses the GitHub API to read a `.txt` file from a repository, replace all instanc
 The following libraries are required to run the programs in this repository:
 
 - **Python** 3.13.9
-- **requests** 2.32.5 – Used to make HTTP requests to external APIs (CSO, card draw)
-- **PyGithub** 2.8.1 – Python library for interacting with the GitHub API
-- **sys** – Python standard library module, used to manage the system path for importing `config.py`
+- **requests** 2.32.5 - Used to make HTTP requests to external APIs (CSO, card draw)
+- **PyGithub** 2.8.1 - Python library for interacting with the GitHub API
+- **sys** - Python standard library module, used to manage the system path for importing `config.py`
 
 All dependencies (excluding `sys`, which is built into Python) are listed in `requirements.txt` and can be installed by running:
 ```bash
